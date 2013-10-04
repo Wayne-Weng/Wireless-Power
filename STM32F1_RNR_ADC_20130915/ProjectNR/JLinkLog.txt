@@ -1,0 +1,35 @@
+
+T0568 000:204 SEGGER J-Link V4.76 Log File (0001ms, 0057ms total)
+T0568 000:204 DLL Compiled: Aug 23 2013 20:59:10 (0001ms, 0057ms total)
+T0568 000:204 Logging started @ 2013-09-18 22:32 (0001ms, 0057ms total)
+T0568 000:205 JLINK_SetWarnOutHandler(...) (0000ms, 0057ms total)
+T0568 000:205 JLINK_OpenEx(...)
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N: 20090928
+Feature(s): RDI,FlashDL,FlashBP,JFlash,GDBFull  returns O.K. (0024ms, 0081ms total)
+T0568 000:229 JLINK_SetErrorOutHandler(...) (0000ms, 0081ms total)
+T0568 000:229 JLINK_ExecCommand("ProjectFile = "E:\Desktop\STM32F1_RNR_TestADC_20130827\ProjectNR\JLinkSettings.ini"", ...)  returns 0x00 (0000ms, 0081ms total)
+T0568 000:229 JLINK_ExecCommand("Device = STM32F103CB", ...)
+                JLINK_AddMirrorAreaEx(Addr = 0x00000000, Size = 0x00000000) (0000ms, 0000ms total)
+              Device "STM32F103CB" selected (128 KB flash, 20 KB RAM).  returns 0x00 (0001ms, 0082ms total)
+T0568 000:230 JLINK_ExecCommand("DisableConnectionTimeout", ...)  returns 0x01 (0000ms, 0082ms total)
+T0568 000:230 JLINK_GetHardwareVersion()  returns 0x11170 (0000ms, 0082ms total)
+T0568 000:230 JLINK_GetDLLVersion()  returns 47600 (0000ms, 0082ms total)
+T0568 000:230 JLINK_GetFirmwareString(...) (0000ms, 0082ms total)
+T0568 000:230 JLINK_GetDLLVersion()  returns 47600 (0000ms, 0082ms total)
+T0568 000:230 JLINK_GetCompileDateTime() (0000ms, 0082ms total)
+T0568 000:230 JLINK_GetFirmwareString(...) (0000ms, 0082ms total)
+T0568 000:230 JLINK_GetHardwareVersion()  returns 0x11170 (0000ms, 0082ms total)
+T0568 000:230 JLINK_TIF_Select(JLINKARM_TIF_SWD)  returns 0x00 (0003ms, 0085ms total)
+T0568 000:233 JLINK_SetSpeed(10000) (0001ms, 0086ms total)
+T0568 000:235 JLINK_SetResetType(JLINKARM_RESET_TYPE_NORMAL)  returns JLINKARM_RESET_TYPE_NORMAL (0000ms, 0086ms total)
+T0568 000:235 JLINK_Reset() >0x108 TIF>Found SWD-DP with ID 0x1BA01477 >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x108 TIF>Found SWD-DP with ID 0x1BA01477 >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF>
+ >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF>Found Cortex-M3 r1p1, Little endian. -- CPU_WriteMem(4 bytes @ 0xE0002000) -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU_WriteMem(4 bytes @ 0xE000EDF0)
+ -- CPU_ReadMem(4 bytes @ 0xE0002000)FPUnit: 6 code (BP) slots and 2 literal slots -- CPU_ReadMem(4 bytes @ 0xE000EDFC) -- CPU_WriteMem(4 bytes @ 0xE000EDFC) -- CPU_ReadMem(4 bytes @ 0xE0001000) -- CPU_WriteMem(4 bytes @ 0xE0001000) -- CPU_ReadMem(4 bytes @ 0xE00FF010)TPIU fitted. -- CPU_ReadMem(4 bytes @ 0xE00FF014) -- CPU_ReadMem(4 bytes @ 0xE00FF018) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDFC) >0x35 TIF> -- CPU is running
+ -- CPU_WriteMem(4 bytes @ 0xE000ED0C) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDFC) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU_WriteMem(4 bytes @ 0xE0002000) (0104ms, 0190ms total)
+T0568 000:339 JLINK_GetId() >0x0D TIF> >0x21 TIF>  returns 0x1BA01477 (0002ms, 0192ms total)
+T0568 000:345 JLINK_GetFirmwareString(...) (0000ms, 0192ms total)
+T0568 001:260 JLINK_Close() >0x42 TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> (0017ms, 0209ms total)
+T0568 001:284 JLINK_Close() (0000ms, 0209ms total)
+T0568 001:286 JLINK_Close() (0000ms, 0209ms total)
